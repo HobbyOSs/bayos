@@ -1,0 +1,794 @@
+bayos.obj: bayos.cpp bayos.h apilib.h system/arraylist.h system/message.h \
+  system/descriptor.h system/ihandler.h driver/pic.h driver/dtk5s.h \
+  driver/file.h system/memory.h system/scheduler.h system/sheet.h \
+  system/console.h system/jpegls.h driver/beep.h driver/clock.h \
+  driver/keyboard.h driver/mouse.h driver/timer.h
+beep.obj: driver/beep.cpp driver/../bayos.h driver/../apilib.h \
+  driver/../system/arraylist.h driver/../system/message.h \
+  driver/../system/descriptor.h driver/../system/ihandler.h \
+  driver/../driver/pic.h driver/../driver/dtk5s.h driver/../driver/file.h \
+  driver/../system/memory.h driver/../system/scheduler.h \
+  driver/../system/sheet.h driver/../system/console.h \
+  driver/../system/jpegls.h driver/../driver/beep.h \
+  driver/../driver/clock.h driver/../driver/keyboard.h \
+  driver/../driver/mouse.h driver/../driver/timer.h
+clock.obj: driver/clock.cpp driver/../bayos.h driver/../apilib.h \
+  driver/../system/arraylist.h driver/../system/message.h \
+  driver/../system/descriptor.h driver/../system/ihandler.h \
+  driver/../driver/pic.h driver/../driver/dtk5s.h driver/../driver/file.h \
+  driver/../system/memory.h driver/../system/scheduler.h \
+  driver/../system/sheet.h driver/../system/console.h \
+  driver/../system/jpegls.h driver/../driver/beep.h \
+  driver/../driver/clock.h driver/../driver/keyboard.h \
+  driver/../driver/mouse.h driver/../driver/timer.h
+dtk5s.obj: driver/dtk5s.cpp driver/../bayos.h driver/../apilib.h \
+  driver/../system/arraylist.h driver/../system/message.h \
+  driver/../system/descriptor.h driver/../system/ihandler.h \
+  driver/../driver/pic.h driver/../driver/dtk5s.h driver/../driver/file.h \
+  driver/../system/memory.h driver/../system/scheduler.h \
+  driver/../system/sheet.h driver/../system/console.h \
+  driver/../system/jpegls.h driver/../driver/beep.h \
+  driver/../driver/clock.h driver/../driver/keyboard.h \
+  driver/../driver/mouse.h driver/../driver/timer.h
+file.obj: driver/file.cpp driver/../bayos.h driver/../apilib.h \
+  driver/../system/arraylist.h driver/../system/message.h \
+  driver/../system/descriptor.h driver/../system/ihandler.h \
+  driver/../driver/pic.h driver/../driver/dtk5s.h driver/../driver/file.h \
+  driver/../system/memory.h driver/../system/scheduler.h \
+  driver/../system/sheet.h driver/../system/console.h \
+  driver/../system/jpegls.h driver/../driver/beep.h \
+  driver/../driver/clock.h driver/../driver/keyboard.h \
+  driver/../driver/mouse.h driver/../driver/timer.h
+keyboard.obj: driver/keyboard.cpp driver/../bayos.h driver/../apilib.h \
+  driver/../system/arraylist.h driver/../system/message.h \
+  driver/../system/descriptor.h driver/../system/ihandler.h \
+  driver/../driver/pic.h driver/../driver/dtk5s.h driver/../driver/file.h \
+  driver/../system/memory.h driver/../system/scheduler.h \
+  driver/../system/sheet.h driver/../system/console.h \
+  driver/../system/jpegls.h driver/../driver/beep.h \
+  driver/../driver/clock.h driver/../driver/keyboard.h \
+  driver/../driver/mouse.h driver/../driver/timer.h
+mouse.obj: driver/mouse.cpp driver/../bayos.h driver/../apilib.h \
+  driver/../system/arraylist.h driver/../system/message.h \
+  driver/../system/descriptor.h driver/../system/ihandler.h \
+  driver/../driver/pic.h driver/../driver/dtk5s.h driver/../driver/file.h \
+  driver/../system/memory.h driver/../system/scheduler.h \
+  driver/../system/sheet.h driver/../system/console.h \
+  driver/../system/jpegls.h driver/../driver/beep.h \
+  driver/../driver/clock.h driver/../driver/keyboard.h \
+  driver/../driver/mouse.h driver/../driver/timer.h
+pic.obj: driver/pic.cpp driver/../bayos.h driver/../apilib.h \
+  driver/../system/arraylist.h driver/../system/message.h \
+  driver/../system/descriptor.h driver/../system/ihandler.h \
+  driver/../driver/pic.h driver/../driver/dtk5s.h driver/../driver/file.h \
+  driver/../system/memory.h driver/../system/scheduler.h \
+  driver/../system/sheet.h driver/../system/console.h \
+  driver/../system/jpegls.h driver/../driver/beep.h \
+  driver/../driver/clock.h driver/../driver/keyboard.h \
+  driver/../driver/mouse.h driver/../driver/timer.h
+timer.obj: driver/timer.cpp driver/../bayos.h driver/../apilib.h \
+  driver/../system/arraylist.h driver/../system/message.h \
+  driver/../system/descriptor.h driver/../system/ihandler.h \
+  driver/../driver/pic.h driver/../driver/dtk5s.h driver/../driver/file.h \
+  driver/../system/memory.h driver/../system/scheduler.h \
+  driver/../system/sheet.h driver/../system/console.h \
+  driver/../system/jpegls.h driver/../driver/beep.h \
+  driver/../driver/clock.h driver/../driver/keyboard.h \
+  driver/../driver/mouse.h driver/../driver/timer.h
+console.obj: system/console.cpp system/../bayos.h system/../apilib.h \
+  system/../system/arraylist.h system/../system/message.h \
+  system/../system/descriptor.h system/../system/ihandler.h \
+  system/../driver/pic.h system/../driver/dtk5s.h system/../driver/file.h \
+  system/../system/memory.h system/../system/scheduler.h \
+  system/../system/sheet.h system/../system/console.h \
+  system/../system/jpegls.h system/../driver/beep.h \
+  system/../driver/clock.h system/../driver/keyboard.h \
+  system/../driver/mouse.h system/../driver/timer.h
+descriptor.obj: system/descriptor.cpp system/../bayos.h system/../apilib.h \
+  system/../system/arraylist.h system/../system/message.h \
+  system/../system/descriptor.h system/../system/ihandler.h \
+  system/../driver/pic.h system/../driver/dtk5s.h system/../driver/file.h \
+  system/../system/memory.h system/../system/scheduler.h \
+  system/../system/sheet.h system/../system/console.h \
+  system/../system/jpegls.h system/../driver/beep.h \
+  system/../driver/clock.h system/../driver/keyboard.h \
+  system/../driver/mouse.h system/../driver/timer.h
+ihandler.obj: system/ihandler.cpp system/../bayos.h system/../apilib.h \
+  system/../system/arraylist.h system/../system/message.h \
+  system/../system/descriptor.h system/../system/ihandler.h \
+  system/../driver/pic.h system/../driver/dtk5s.h system/../driver/file.h \
+  system/../system/memory.h system/../system/scheduler.h \
+  system/../system/sheet.h system/../system/console.h \
+  system/../system/jpegls.h system/../driver/beep.h \
+  system/../driver/clock.h system/../driver/keyboard.h \
+  system/../driver/mouse.h system/../driver/timer.h
+jpegls.obj: system/jpegls.cpp system/jpegls.h
+memory.obj: system/memory.cpp system/../bayos.h system/../apilib.h \
+  system/../system/arraylist.h system/../system/message.h \
+  system/../system/descriptor.h system/../system/ihandler.h \
+  system/../driver/pic.h system/../driver/dtk5s.h system/../driver/file.h \
+  system/../system/memory.h system/../system/scheduler.h \
+  system/../system/sheet.h system/../system/console.h \
+  system/../system/jpegls.h system/../driver/beep.h \
+  system/../driver/clock.h system/../driver/keyboard.h \
+  system/../driver/mouse.h system/../driver/timer.h
+message.obj: system/message.cpp system/../bayos.h system/../apilib.h \
+  system/../system/arraylist.h system/../system/message.h \
+  system/../system/descriptor.h system/../system/ihandler.h \
+  system/../driver/pic.h system/../driver/dtk5s.h system/../driver/file.h \
+  system/../system/memory.h system/../system/scheduler.h \
+  system/../system/sheet.h system/../system/console.h \
+  system/../system/jpegls.h system/../driver/beep.h \
+  system/../driver/clock.h system/../driver/keyboard.h \
+  system/../driver/mouse.h system/../driver/timer.h
+scheduler.obj: system/scheduler.cpp system/../bayos.h system/../apilib.h \
+  system/../system/arraylist.h system/../system/message.h \
+  system/../system/descriptor.h system/../system/ihandler.h \
+  system/../driver/pic.h system/../driver/dtk5s.h system/../driver/file.h \
+  system/../system/memory.h system/../system/scheduler.h \
+  system/../system/sheet.h system/../system/console.h \
+  system/../system/jpegls.h system/../driver/beep.h \
+  system/../driver/clock.h system/../driver/keyboard.h \
+  system/../driver/mouse.h system/../driver/timer.h
+sheet.obj: system/sheet.cpp system/../bayos.h system/../apilib.h \
+  system/../system/arraylist.h system/../system/message.h \
+  system/../system/descriptor.h system/../system/ihandler.h \
+  system/../driver/pic.h system/../driver/dtk5s.h system/../driver/file.h \
+  system/../system/memory.h system/../system/scheduler.h \
+  system/../system/sheet.h system/../system/console.h \
+  system/../system/jpegls.h system/../driver/beep.h \
+  system/../driver/clock.h system/../driver/keyboard.h \
+  system/../driver/mouse.h system/../driver/timer.h
+bball.obj: apps/bball.cpp apps/../baygui.h apps/../apilib.h \
+  apps/../baygui/lang/Object.h apps/../baygui/util/ArrayList.h \
+  apps/../baygui/lang/String.h apps/../baygui/lang/Integer.h \
+  apps/../baygui/lang/Math.h apps/../baygui/awt/AWTEvent.h \
+  apps/../baygui/awt/event/KeyEvent.h \
+  apps/../baygui/awt/event/KeyListener.h \
+  apps/../baygui/awt/event/MouseEvent.h \
+  apps/../baygui/awt/event/MouseListener.h \
+  apps/../baygui/awt/event/MouseMotionListener.h \
+  apps/../baygui/awt/Rectangle.h apps/../baygui/awt/Color.h \
+  apps/../baygui/awt/Graphics.h apps/../baygui/awt/Component.h \
+  apps/../baygui/awt/Button.h apps/../baygui/awt/Checkbox.h \
+  apps/../baygui/awt/CheckboxGroup.h apps/../baygui/awt/Label.h \
+  apps/../baygui/awt/Listbox.h apps/../baygui/awt/Scrollbar.h \
+  apps/../baygui/awt/TextComponent.h apps/../baygui/awt/TextField.h \
+  apps/../baygui/awt/Container.h apps/../baygui/awt/Frame.h \
+  apps/../baygui/awt/Application.h
+cat.obj: apps/cat.cpp apps/../apilib.h
+guitest.obj: apps/guitest.cpp apps/../baygui.h apps/../apilib.h \
+  apps/../baygui/lang/Object.h apps/../baygui/util/ArrayList.h \
+  apps/../baygui/lang/String.h apps/../baygui/lang/Integer.h \
+  apps/../baygui/lang/Math.h apps/../baygui/awt/AWTEvent.h \
+  apps/../baygui/awt/event/KeyEvent.h \
+  apps/../baygui/awt/event/KeyListener.h \
+  apps/../baygui/awt/event/MouseEvent.h \
+  apps/../baygui/awt/event/MouseListener.h \
+  apps/../baygui/awt/event/MouseMotionListener.h \
+  apps/../baygui/awt/Rectangle.h apps/../baygui/awt/Color.h \
+  apps/../baygui/awt/Graphics.h apps/../baygui/awt/Component.h \
+  apps/../baygui/awt/Button.h apps/../baygui/awt/Checkbox.h \
+  apps/../baygui/awt/CheckboxGroup.h apps/../baygui/awt/Label.h \
+  apps/../baygui/awt/Listbox.h apps/../baygui/awt/Scrollbar.h \
+  apps/../baygui/awt/TextComponent.h apps/../baygui/awt/TextField.h \
+  apps/../baygui/awt/Container.h apps/../baygui/awt/Frame.h \
+  apps/../baygui/awt/Application.h
+hello.obj: apps/hello.cpp apps/../apilib.h
+noiz2bg.obj: apps/noiz2bg.cpp apps/../baygui.h apps/../apilib.h \
+  apps/../baygui/lang/Object.h apps/../baygui/util/ArrayList.h \
+  apps/../baygui/lang/String.h apps/../baygui/lang/Integer.h \
+  apps/../baygui/lang/Math.h apps/../baygui/awt/AWTEvent.h \
+  apps/../baygui/awt/event/KeyEvent.h \
+  apps/../baygui/awt/event/KeyListener.h \
+  apps/../baygui/awt/event/MouseEvent.h \
+  apps/../baygui/awt/event/MouseListener.h \
+  apps/../baygui/awt/event/MouseMotionListener.h \
+  apps/../baygui/awt/Rectangle.h apps/../baygui/awt/Color.h \
+  apps/../baygui/awt/Graphics.h apps/../baygui/awt/Component.h \
+  apps/../baygui/awt/Button.h apps/../baygui/awt/Checkbox.h \
+  apps/../baygui/awt/CheckboxGroup.h apps/../baygui/awt/Label.h \
+  apps/../baygui/awt/Listbox.h apps/../baygui/awt/Scrollbar.h \
+  apps/../baygui/awt/TextComponent.h apps/../baygui/awt/TextField.h \
+  apps/../baygui/awt/Container.h apps/../baygui/awt/Frame.h \
+  apps/../baygui/awt/Application.h
+delete.obj: apilib/delete.cpp apilib/../apilib.h
+memcpy.obj: apilib/memcpy.cpp apilib/../apilib.h
+new.obj: apilib/new.cpp apilib/../apilib.h
+printf.obj: apilib/printf.cpp apilib/../apilib.h
+Integer.obj: baygui/lang/Integer.cpp baygui/lang/../../baygui.h \
+  baygui/lang/../../apilib.h baygui/lang/../../baygui/lang/Object.h \
+  baygui/lang/../../baygui/util/ArrayList.h \
+  baygui/lang/../../baygui/lang/String.h \
+  baygui/lang/../../baygui/lang/Integer.h \
+  baygui/lang/../../baygui/lang/Math.h \
+  baygui/lang/../../baygui/awt/AWTEvent.h \
+  baygui/lang/../../baygui/awt/event/KeyEvent.h \
+  baygui/lang/../../baygui/awt/event/KeyListener.h \
+  baygui/lang/../../baygui/awt/event/MouseEvent.h \
+  baygui/lang/../../baygui/awt/event/MouseListener.h \
+  baygui/lang/../../baygui/awt/event/MouseMotionListener.h \
+  baygui/lang/../../baygui/awt/Rectangle.h \
+  baygui/lang/../../baygui/awt/Color.h \
+  baygui/lang/../../baygui/awt/Graphics.h \
+  baygui/lang/../../baygui/awt/Component.h \
+  baygui/lang/../../baygui/awt/Button.h \
+  baygui/lang/../../baygui/awt/Checkbox.h \
+  baygui/lang/../../baygui/awt/CheckboxGroup.h \
+  baygui/lang/../../baygui/awt/Label.h \
+  baygui/lang/../../baygui/awt/Listbox.h \
+  baygui/lang/../../baygui/awt/Scrollbar.h \
+  baygui/lang/../../baygui/awt/TextComponent.h \
+  baygui/lang/../../baygui/awt/TextField.h \
+  baygui/lang/../../baygui/awt/Container.h \
+  baygui/lang/../../baygui/awt/Frame.h \
+  baygui/lang/../../baygui/awt/Application.h
+Math.obj: baygui/lang/Math.cpp baygui/lang/../../baygui.h \
+  baygui/lang/../../apilib.h baygui/lang/../../baygui/lang/Object.h \
+  baygui/lang/../../baygui/util/ArrayList.h \
+  baygui/lang/../../baygui/lang/String.h \
+  baygui/lang/../../baygui/lang/Integer.h \
+  baygui/lang/../../baygui/lang/Math.h \
+  baygui/lang/../../baygui/awt/AWTEvent.h \
+  baygui/lang/../../baygui/awt/event/KeyEvent.h \
+  baygui/lang/../../baygui/awt/event/KeyListener.h \
+  baygui/lang/../../baygui/awt/event/MouseEvent.h \
+  baygui/lang/../../baygui/awt/event/MouseListener.h \
+  baygui/lang/../../baygui/awt/event/MouseMotionListener.h \
+  baygui/lang/../../baygui/awt/Rectangle.h \
+  baygui/lang/../../baygui/awt/Color.h \
+  baygui/lang/../../baygui/awt/Graphics.h \
+  baygui/lang/../../baygui/awt/Component.h \
+  baygui/lang/../../baygui/awt/Button.h \
+  baygui/lang/../../baygui/awt/Checkbox.h \
+  baygui/lang/../../baygui/awt/CheckboxGroup.h \
+  baygui/lang/../../baygui/awt/Label.h \
+  baygui/lang/../../baygui/awt/Listbox.h \
+  baygui/lang/../../baygui/awt/Scrollbar.h \
+  baygui/lang/../../baygui/awt/TextComponent.h \
+  baygui/lang/../../baygui/awt/TextField.h \
+  baygui/lang/../../baygui/awt/Container.h \
+  baygui/lang/../../baygui/awt/Frame.h \
+  baygui/lang/../../baygui/awt/Application.h
+Object.obj: baygui/lang/Object.cpp baygui/lang/../../baygui.h \
+  baygui/lang/../../apilib.h baygui/lang/../../baygui/lang/Object.h \
+  baygui/lang/../../baygui/util/ArrayList.h \
+  baygui/lang/../../baygui/lang/String.h \
+  baygui/lang/../../baygui/lang/Integer.h \
+  baygui/lang/../../baygui/lang/Math.h \
+  baygui/lang/../../baygui/awt/AWTEvent.h \
+  baygui/lang/../../baygui/awt/event/KeyEvent.h \
+  baygui/lang/../../baygui/awt/event/KeyListener.h \
+  baygui/lang/../../baygui/awt/event/MouseEvent.h \
+  baygui/lang/../../baygui/awt/event/MouseListener.h \
+  baygui/lang/../../baygui/awt/event/MouseMotionListener.h \
+  baygui/lang/../../baygui/awt/Rectangle.h \
+  baygui/lang/../../baygui/awt/Color.h \
+  baygui/lang/../../baygui/awt/Graphics.h \
+  baygui/lang/../../baygui/awt/Component.h \
+  baygui/lang/../../baygui/awt/Button.h \
+  baygui/lang/../../baygui/awt/Checkbox.h \
+  baygui/lang/../../baygui/awt/CheckboxGroup.h \
+  baygui/lang/../../baygui/awt/Label.h \
+  baygui/lang/../../baygui/awt/Listbox.h \
+  baygui/lang/../../baygui/awt/Scrollbar.h \
+  baygui/lang/../../baygui/awt/TextComponent.h \
+  baygui/lang/../../baygui/awt/TextField.h \
+  baygui/lang/../../baygui/awt/Container.h \
+  baygui/lang/../../baygui/awt/Frame.h \
+  baygui/lang/../../baygui/awt/Application.h
+String.obj: baygui/lang/String.cpp baygui/lang/../../baygui.h \
+  baygui/lang/../../apilib.h baygui/lang/../../baygui/lang/Object.h \
+  baygui/lang/../../baygui/util/ArrayList.h \
+  baygui/lang/../../baygui/lang/String.h \
+  baygui/lang/../../baygui/lang/Integer.h \
+  baygui/lang/../../baygui/lang/Math.h \
+  baygui/lang/../../baygui/awt/AWTEvent.h \
+  baygui/lang/../../baygui/awt/event/KeyEvent.h \
+  baygui/lang/../../baygui/awt/event/KeyListener.h \
+  baygui/lang/../../baygui/awt/event/MouseEvent.h \
+  baygui/lang/../../baygui/awt/event/MouseListener.h \
+  baygui/lang/../../baygui/awt/event/MouseMotionListener.h \
+  baygui/lang/../../baygui/awt/Rectangle.h \
+  baygui/lang/../../baygui/awt/Color.h \
+  baygui/lang/../../baygui/awt/Graphics.h \
+  baygui/lang/../../baygui/awt/Component.h \
+  baygui/lang/../../baygui/awt/Button.h \
+  baygui/lang/../../baygui/awt/Checkbox.h \
+  baygui/lang/../../baygui/awt/CheckboxGroup.h \
+  baygui/lang/../../baygui/awt/Label.h \
+  baygui/lang/../../baygui/awt/Listbox.h \
+  baygui/lang/../../baygui/awt/Scrollbar.h \
+  baygui/lang/../../baygui/awt/TextComponent.h \
+  baygui/lang/../../baygui/awt/TextField.h \
+  baygui/lang/../../baygui/awt/Container.h \
+  baygui/lang/../../baygui/awt/Frame.h \
+  baygui/lang/../../baygui/awt/Application.h
+ArrayList.obj: baygui/util/ArrayList.cpp baygui/util/../../baygui.h \
+  baygui/util/../../apilib.h baygui/util/../../baygui/lang/Object.h \
+  baygui/util/../../baygui/util/ArrayList.h \
+  baygui/util/../../baygui/lang/String.h \
+  baygui/util/../../baygui/lang/Integer.h \
+  baygui/util/../../baygui/lang/Math.h \
+  baygui/util/../../baygui/awt/AWTEvent.h \
+  baygui/util/../../baygui/awt/event/KeyEvent.h \
+  baygui/util/../../baygui/awt/event/KeyListener.h \
+  baygui/util/../../baygui/awt/event/MouseEvent.h \
+  baygui/util/../../baygui/awt/event/MouseListener.h \
+  baygui/util/../../baygui/awt/event/MouseMotionListener.h \
+  baygui/util/../../baygui/awt/Rectangle.h \
+  baygui/util/../../baygui/awt/Color.h \
+  baygui/util/../../baygui/awt/Graphics.h \
+  baygui/util/../../baygui/awt/Component.h \
+  baygui/util/../../baygui/awt/Button.h \
+  baygui/util/../../baygui/awt/Checkbox.h \
+  baygui/util/../../baygui/awt/CheckboxGroup.h \
+  baygui/util/../../baygui/awt/Label.h \
+  baygui/util/../../baygui/awt/Listbox.h \
+  baygui/util/../../baygui/awt/Scrollbar.h \
+  baygui/util/../../baygui/awt/TextComponent.h \
+  baygui/util/../../baygui/awt/TextField.h \
+  baygui/util/../../baygui/awt/Container.h \
+  baygui/util/../../baygui/awt/Frame.h \
+  baygui/util/../../baygui/awt/Application.h
+AWTEvent.obj: baygui/awt/AWTEvent.cpp baygui/awt/../../baygui.h \
+  baygui/awt/../../apilib.h baygui/awt/../../baygui/lang/Object.h \
+  baygui/awt/../../baygui/util/ArrayList.h \
+  baygui/awt/../../baygui/lang/String.h \
+  baygui/awt/../../baygui/lang/Integer.h \
+  baygui/awt/../../baygui/lang/Math.h \
+  baygui/awt/../../baygui/awt/AWTEvent.h \
+  baygui/awt/../../baygui/awt/event/KeyEvent.h \
+  baygui/awt/../../baygui/awt/event/KeyListener.h \
+  baygui/awt/../../baygui/awt/event/MouseEvent.h \
+  baygui/awt/../../baygui/awt/event/MouseListener.h \
+  baygui/awt/../../baygui/awt/event/MouseMotionListener.h \
+  baygui/awt/../../baygui/awt/Rectangle.h \
+  baygui/awt/../../baygui/awt/Color.h \
+  baygui/awt/../../baygui/awt/Graphics.h \
+  baygui/awt/../../baygui/awt/Component.h \
+  baygui/awt/../../baygui/awt/Button.h \
+  baygui/awt/../../baygui/awt/Checkbox.h \
+  baygui/awt/../../baygui/awt/CheckboxGroup.h \
+  baygui/awt/../../baygui/awt/Label.h \
+  baygui/awt/../../baygui/awt/Listbox.h \
+  baygui/awt/../../baygui/awt/Scrollbar.h \
+  baygui/awt/../../baygui/awt/TextComponent.h \
+  baygui/awt/../../baygui/awt/TextField.h \
+  baygui/awt/../../baygui/awt/Container.h \
+  baygui/awt/../../baygui/awt/Frame.h \
+  baygui/awt/../../baygui/awt/Application.h
+Application.obj: baygui/awt/Application.cpp baygui/awt/../../baygui.h \
+  baygui/awt/../../apilib.h baygui/awt/../../baygui/lang/Object.h \
+  baygui/awt/../../baygui/util/ArrayList.h \
+  baygui/awt/../../baygui/lang/String.h \
+  baygui/awt/../../baygui/lang/Integer.h \
+  baygui/awt/../../baygui/lang/Math.h \
+  baygui/awt/../../baygui/awt/AWTEvent.h \
+  baygui/awt/../../baygui/awt/event/KeyEvent.h \
+  baygui/awt/../../baygui/awt/event/KeyListener.h \
+  baygui/awt/../../baygui/awt/event/MouseEvent.h \
+  baygui/awt/../../baygui/awt/event/MouseListener.h \
+  baygui/awt/../../baygui/awt/event/MouseMotionListener.h \
+  baygui/awt/../../baygui/awt/Rectangle.h \
+  baygui/awt/../../baygui/awt/Color.h \
+  baygui/awt/../../baygui/awt/Graphics.h \
+  baygui/awt/../../baygui/awt/Component.h \
+  baygui/awt/../../baygui/awt/Button.h \
+  baygui/awt/../../baygui/awt/Checkbox.h \
+  baygui/awt/../../baygui/awt/CheckboxGroup.h \
+  baygui/awt/../../baygui/awt/Label.h \
+  baygui/awt/../../baygui/awt/Listbox.h \
+  baygui/awt/../../baygui/awt/Scrollbar.h \
+  baygui/awt/../../baygui/awt/TextComponent.h \
+  baygui/awt/../../baygui/awt/TextField.h \
+  baygui/awt/../../baygui/awt/Container.h \
+  baygui/awt/../../baygui/awt/Frame.h \
+  baygui/awt/../../baygui/awt/Application.h
+Button.obj: baygui/awt/Button.cpp baygui/awt/../../baygui.h \
+  baygui/awt/../../apilib.h baygui/awt/../../baygui/lang/Object.h \
+  baygui/awt/../../baygui/util/ArrayList.h \
+  baygui/awt/../../baygui/lang/String.h \
+  baygui/awt/../../baygui/lang/Integer.h \
+  baygui/awt/../../baygui/lang/Math.h \
+  baygui/awt/../../baygui/awt/AWTEvent.h \
+  baygui/awt/../../baygui/awt/event/KeyEvent.h \
+  baygui/awt/../../baygui/awt/event/KeyListener.h \
+  baygui/awt/../../baygui/awt/event/MouseEvent.h \
+  baygui/awt/../../baygui/awt/event/MouseListener.h \
+  baygui/awt/../../baygui/awt/event/MouseMotionListener.h \
+  baygui/awt/../../baygui/awt/Rectangle.h \
+  baygui/awt/../../baygui/awt/Color.h \
+  baygui/awt/../../baygui/awt/Graphics.h \
+  baygui/awt/../../baygui/awt/Component.h \
+  baygui/awt/../../baygui/awt/Button.h \
+  baygui/awt/../../baygui/awt/Checkbox.h \
+  baygui/awt/../../baygui/awt/CheckboxGroup.h \
+  baygui/awt/../../baygui/awt/Label.h \
+  baygui/awt/../../baygui/awt/Listbox.h \
+  baygui/awt/../../baygui/awt/Scrollbar.h \
+  baygui/awt/../../baygui/awt/TextComponent.h \
+  baygui/awt/../../baygui/awt/TextField.h \
+  baygui/awt/../../baygui/awt/Container.h \
+  baygui/awt/../../baygui/awt/Frame.h \
+  baygui/awt/../../baygui/awt/Application.h
+Checkbox.obj: baygui/awt/Checkbox.cpp baygui/awt/../../baygui.h \
+  baygui/awt/../../apilib.h baygui/awt/../../baygui/lang/Object.h \
+  baygui/awt/../../baygui/util/ArrayList.h \
+  baygui/awt/../../baygui/lang/String.h \
+  baygui/awt/../../baygui/lang/Integer.h \
+  baygui/awt/../../baygui/lang/Math.h \
+  baygui/awt/../../baygui/awt/AWTEvent.h \
+  baygui/awt/../../baygui/awt/event/KeyEvent.h \
+  baygui/awt/../../baygui/awt/event/KeyListener.h \
+  baygui/awt/../../baygui/awt/event/MouseEvent.h \
+  baygui/awt/../../baygui/awt/event/MouseListener.h \
+  baygui/awt/../../baygui/awt/event/MouseMotionListener.h \
+  baygui/awt/../../baygui/awt/Rectangle.h \
+  baygui/awt/../../baygui/awt/Color.h \
+  baygui/awt/../../baygui/awt/Graphics.h \
+  baygui/awt/../../baygui/awt/Component.h \
+  baygui/awt/../../baygui/awt/Button.h \
+  baygui/awt/../../baygui/awt/Checkbox.h \
+  baygui/awt/../../baygui/awt/CheckboxGroup.h \
+  baygui/awt/../../baygui/awt/Label.h \
+  baygui/awt/../../baygui/awt/Listbox.h \
+  baygui/awt/../../baygui/awt/Scrollbar.h \
+  baygui/awt/../../baygui/awt/TextComponent.h \
+  baygui/awt/../../baygui/awt/TextField.h \
+  baygui/awt/../../baygui/awt/Container.h \
+  baygui/awt/../../baygui/awt/Frame.h \
+  baygui/awt/../../baygui/awt/Application.h
+CheckboxGroup.obj: baygui/awt/CheckboxGroup.cpp baygui/awt/../../baygui.h \
+  baygui/awt/../../apilib.h baygui/awt/../../baygui/lang/Object.h \
+  baygui/awt/../../baygui/util/ArrayList.h \
+  baygui/awt/../../baygui/lang/String.h \
+  baygui/awt/../../baygui/lang/Integer.h \
+  baygui/awt/../../baygui/lang/Math.h \
+  baygui/awt/../../baygui/awt/AWTEvent.h \
+  baygui/awt/../../baygui/awt/event/KeyEvent.h \
+  baygui/awt/../../baygui/awt/event/KeyListener.h \
+  baygui/awt/../../baygui/awt/event/MouseEvent.h \
+  baygui/awt/../../baygui/awt/event/MouseListener.h \
+  baygui/awt/../../baygui/awt/event/MouseMotionListener.h \
+  baygui/awt/../../baygui/awt/Rectangle.h \
+  baygui/awt/../../baygui/awt/Color.h \
+  baygui/awt/../../baygui/awt/Graphics.h \
+  baygui/awt/../../baygui/awt/Component.h \
+  baygui/awt/../../baygui/awt/Button.h \
+  baygui/awt/../../baygui/awt/Checkbox.h \
+  baygui/awt/../../baygui/awt/CheckboxGroup.h \
+  baygui/awt/../../baygui/awt/Label.h \
+  baygui/awt/../../baygui/awt/Listbox.h \
+  baygui/awt/../../baygui/awt/Scrollbar.h \
+  baygui/awt/../../baygui/awt/TextComponent.h \
+  baygui/awt/../../baygui/awt/TextField.h \
+  baygui/awt/../../baygui/awt/Container.h \
+  baygui/awt/../../baygui/awt/Frame.h \
+  baygui/awt/../../baygui/awt/Application.h
+Component.obj: baygui/awt/Component.cpp baygui/awt/../../baygui.h \
+  baygui/awt/../../apilib.h baygui/awt/../../baygui/lang/Object.h \
+  baygui/awt/../../baygui/util/ArrayList.h \
+  baygui/awt/../../baygui/lang/String.h \
+  baygui/awt/../../baygui/lang/Integer.h \
+  baygui/awt/../../baygui/lang/Math.h \
+  baygui/awt/../../baygui/awt/AWTEvent.h \
+  baygui/awt/../../baygui/awt/event/KeyEvent.h \
+  baygui/awt/../../baygui/awt/event/KeyListener.h \
+  baygui/awt/../../baygui/awt/event/MouseEvent.h \
+  baygui/awt/../../baygui/awt/event/MouseListener.h \
+  baygui/awt/../../baygui/awt/event/MouseMotionListener.h \
+  baygui/awt/../../baygui/awt/Rectangle.h \
+  baygui/awt/../../baygui/awt/Color.h \
+  baygui/awt/../../baygui/awt/Graphics.h \
+  baygui/awt/../../baygui/awt/Component.h \
+  baygui/awt/../../baygui/awt/Button.h \
+  baygui/awt/../../baygui/awt/Checkbox.h \
+  baygui/awt/../../baygui/awt/CheckboxGroup.h \
+  baygui/awt/../../baygui/awt/Label.h \
+  baygui/awt/../../baygui/awt/Listbox.h \
+  baygui/awt/../../baygui/awt/Scrollbar.h \
+  baygui/awt/../../baygui/awt/TextComponent.h \
+  baygui/awt/../../baygui/awt/TextField.h \
+  baygui/awt/../../baygui/awt/Container.h \
+  baygui/awt/../../baygui/awt/Frame.h \
+  baygui/awt/../../baygui/awt/Application.h
+Container.obj: baygui/awt/Container.cpp baygui/awt/../../baygui.h \
+  baygui/awt/../../apilib.h baygui/awt/../../baygui/lang/Object.h \
+  baygui/awt/../../baygui/util/ArrayList.h \
+  baygui/awt/../../baygui/lang/String.h \
+  baygui/awt/../../baygui/lang/Integer.h \
+  baygui/awt/../../baygui/lang/Math.h \
+  baygui/awt/../../baygui/awt/AWTEvent.h \
+  baygui/awt/../../baygui/awt/event/KeyEvent.h \
+  baygui/awt/../../baygui/awt/event/KeyListener.h \
+  baygui/awt/../../baygui/awt/event/MouseEvent.h \
+  baygui/awt/../../baygui/awt/event/MouseListener.h \
+  baygui/awt/../../baygui/awt/event/MouseMotionListener.h \
+  baygui/awt/../../baygui/awt/Rectangle.h \
+  baygui/awt/../../baygui/awt/Color.h \
+  baygui/awt/../../baygui/awt/Graphics.h \
+  baygui/awt/../../baygui/awt/Component.h \
+  baygui/awt/../../baygui/awt/Button.h \
+  baygui/awt/../../baygui/awt/Checkbox.h \
+  baygui/awt/../../baygui/awt/CheckboxGroup.h \
+  baygui/awt/../../baygui/awt/Label.h \
+  baygui/awt/../../baygui/awt/Listbox.h \
+  baygui/awt/../../baygui/awt/Scrollbar.h \
+  baygui/awt/../../baygui/awt/TextComponent.h \
+  baygui/awt/../../baygui/awt/TextField.h \
+  baygui/awt/../../baygui/awt/Container.h \
+  baygui/awt/../../baygui/awt/Frame.h \
+  baygui/awt/../../baygui/awt/Application.h
+Frame.obj: baygui/awt/Frame.cpp baygui/awt/../../baygui.h \
+  baygui/awt/../../apilib.h baygui/awt/../../baygui/lang/Object.h \
+  baygui/awt/../../baygui/util/ArrayList.h \
+  baygui/awt/../../baygui/lang/String.h \
+  baygui/awt/../../baygui/lang/Integer.h \
+  baygui/awt/../../baygui/lang/Math.h \
+  baygui/awt/../../baygui/awt/AWTEvent.h \
+  baygui/awt/../../baygui/awt/event/KeyEvent.h \
+  baygui/awt/../../baygui/awt/event/KeyListener.h \
+  baygui/awt/../../baygui/awt/event/MouseEvent.h \
+  baygui/awt/../../baygui/awt/event/MouseListener.h \
+  baygui/awt/../../baygui/awt/event/MouseMotionListener.h \
+  baygui/awt/../../baygui/awt/Rectangle.h \
+  baygui/awt/../../baygui/awt/Color.h \
+  baygui/awt/../../baygui/awt/Graphics.h \
+  baygui/awt/../../baygui/awt/Component.h \
+  baygui/awt/../../baygui/awt/Button.h \
+  baygui/awt/../../baygui/awt/Checkbox.h \
+  baygui/awt/../../baygui/awt/CheckboxGroup.h \
+  baygui/awt/../../baygui/awt/Label.h \
+  baygui/awt/../../baygui/awt/Listbox.h \
+  baygui/awt/../../baygui/awt/Scrollbar.h \
+  baygui/awt/../../baygui/awt/TextComponent.h \
+  baygui/awt/../../baygui/awt/TextField.h \
+  baygui/awt/../../baygui/awt/Container.h \
+  baygui/awt/../../baygui/awt/Frame.h \
+  baygui/awt/../../baygui/awt/Application.h
+Graphics.obj: baygui/awt/Graphics.cpp baygui/awt/../../baygui.h \
+  baygui/awt/../../apilib.h baygui/awt/../../baygui/lang/Object.h \
+  baygui/awt/../../baygui/util/ArrayList.h \
+  baygui/awt/../../baygui/lang/String.h \
+  baygui/awt/../../baygui/lang/Integer.h \
+  baygui/awt/../../baygui/lang/Math.h \
+  baygui/awt/../../baygui/awt/AWTEvent.h \
+  baygui/awt/../../baygui/awt/event/KeyEvent.h \
+  baygui/awt/../../baygui/awt/event/KeyListener.h \
+  baygui/awt/../../baygui/awt/event/MouseEvent.h \
+  baygui/awt/../../baygui/awt/event/MouseListener.h \
+  baygui/awt/../../baygui/awt/event/MouseMotionListener.h \
+  baygui/awt/../../baygui/awt/Rectangle.h \
+  baygui/awt/../../baygui/awt/Color.h \
+  baygui/awt/../../baygui/awt/Graphics.h \
+  baygui/awt/../../baygui/awt/Component.h \
+  baygui/awt/../../baygui/awt/Button.h \
+  baygui/awt/../../baygui/awt/Checkbox.h \
+  baygui/awt/../../baygui/awt/CheckboxGroup.h \
+  baygui/awt/../../baygui/awt/Label.h \
+  baygui/awt/../../baygui/awt/Listbox.h \
+  baygui/awt/../../baygui/awt/Scrollbar.h \
+  baygui/awt/../../baygui/awt/TextComponent.h \
+  baygui/awt/../../baygui/awt/TextField.h \
+  baygui/awt/../../baygui/awt/Container.h \
+  baygui/awt/../../baygui/awt/Frame.h \
+  baygui/awt/../../baygui/awt/Application.h
+Label.obj: baygui/awt/Label.cpp baygui/awt/../../baygui.h \
+  baygui/awt/../../apilib.h baygui/awt/../../baygui/lang/Object.h \
+  baygui/awt/../../baygui/util/ArrayList.h \
+  baygui/awt/../../baygui/lang/String.h \
+  baygui/awt/../../baygui/lang/Integer.h \
+  baygui/awt/../../baygui/lang/Math.h \
+  baygui/awt/../../baygui/awt/AWTEvent.h \
+  baygui/awt/../../baygui/awt/event/KeyEvent.h \
+  baygui/awt/../../baygui/awt/event/KeyListener.h \
+  baygui/awt/../../baygui/awt/event/MouseEvent.h \
+  baygui/awt/../../baygui/awt/event/MouseListener.h \
+  baygui/awt/../../baygui/awt/event/MouseMotionListener.h \
+  baygui/awt/../../baygui/awt/Rectangle.h \
+  baygui/awt/../../baygui/awt/Color.h \
+  baygui/awt/../../baygui/awt/Graphics.h \
+  baygui/awt/../../baygui/awt/Component.h \
+  baygui/awt/../../baygui/awt/Button.h \
+  baygui/awt/../../baygui/awt/Checkbox.h \
+  baygui/awt/../../baygui/awt/CheckboxGroup.h \
+  baygui/awt/../../baygui/awt/Label.h \
+  baygui/awt/../../baygui/awt/Listbox.h \
+  baygui/awt/../../baygui/awt/Scrollbar.h \
+  baygui/awt/../../baygui/awt/TextComponent.h \
+  baygui/awt/../../baygui/awt/TextField.h \
+  baygui/awt/../../baygui/awt/Container.h \
+  baygui/awt/../../baygui/awt/Frame.h \
+  baygui/awt/../../baygui/awt/Application.h
+Listbox.obj: baygui/awt/Listbox.cpp baygui/awt/../../baygui.h \
+  baygui/awt/../../apilib.h baygui/awt/../../baygui/lang/Object.h \
+  baygui/awt/../../baygui/util/ArrayList.h \
+  baygui/awt/../../baygui/lang/String.h \
+  baygui/awt/../../baygui/lang/Integer.h \
+  baygui/awt/../../baygui/lang/Math.h \
+  baygui/awt/../../baygui/awt/AWTEvent.h \
+  baygui/awt/../../baygui/awt/event/KeyEvent.h \
+  baygui/awt/../../baygui/awt/event/KeyListener.h \
+  baygui/awt/../../baygui/awt/event/MouseEvent.h \
+  baygui/awt/../../baygui/awt/event/MouseListener.h \
+  baygui/awt/../../baygui/awt/event/MouseMotionListener.h \
+  baygui/awt/../../baygui/awt/Rectangle.h \
+  baygui/awt/../../baygui/awt/Color.h \
+  baygui/awt/../../baygui/awt/Graphics.h \
+  baygui/awt/../../baygui/awt/Component.h \
+  baygui/awt/../../baygui/awt/Button.h \
+  baygui/awt/../../baygui/awt/Checkbox.h \
+  baygui/awt/../../baygui/awt/CheckboxGroup.h \
+  baygui/awt/../../baygui/awt/Label.h \
+  baygui/awt/../../baygui/awt/Listbox.h \
+  baygui/awt/../../baygui/awt/Scrollbar.h \
+  baygui/awt/../../baygui/awt/TextComponent.h \
+  baygui/awt/../../baygui/awt/TextField.h \
+  baygui/awt/../../baygui/awt/Container.h \
+  baygui/awt/../../baygui/awt/Frame.h \
+  baygui/awt/../../baygui/awt/Application.h
+Rectangle.obj: baygui/awt/Rectangle.cpp baygui/awt/../../baygui.h \
+  baygui/awt/../../apilib.h baygui/awt/../../baygui/lang/Object.h \
+  baygui/awt/../../baygui/util/ArrayList.h \
+  baygui/awt/../../baygui/lang/String.h \
+  baygui/awt/../../baygui/lang/Integer.h \
+  baygui/awt/../../baygui/lang/Math.h \
+  baygui/awt/../../baygui/awt/AWTEvent.h \
+  baygui/awt/../../baygui/awt/event/KeyEvent.h \
+  baygui/awt/../../baygui/awt/event/KeyListener.h \
+  baygui/awt/../../baygui/awt/event/MouseEvent.h \
+  baygui/awt/../../baygui/awt/event/MouseListener.h \
+  baygui/awt/../../baygui/awt/event/MouseMotionListener.h \
+  baygui/awt/../../baygui/awt/Rectangle.h \
+  baygui/awt/../../baygui/awt/Color.h \
+  baygui/awt/../../baygui/awt/Graphics.h \
+  baygui/awt/../../baygui/awt/Component.h \
+  baygui/awt/../../baygui/awt/Button.h \
+  baygui/awt/../../baygui/awt/Checkbox.h \
+  baygui/awt/../../baygui/awt/CheckboxGroup.h \
+  baygui/awt/../../baygui/awt/Label.h \
+  baygui/awt/../../baygui/awt/Listbox.h \
+  baygui/awt/../../baygui/awt/Scrollbar.h \
+  baygui/awt/../../baygui/awt/TextComponent.h \
+  baygui/awt/../../baygui/awt/TextField.h \
+  baygui/awt/../../baygui/awt/Container.h \
+  baygui/awt/../../baygui/awt/Frame.h \
+  baygui/awt/../../baygui/awt/Application.h
+Scrollbar.obj: baygui/awt/Scrollbar.cpp baygui/awt/../../baygui.h \
+  baygui/awt/../../apilib.h baygui/awt/../../baygui/lang/Object.h \
+  baygui/awt/../../baygui/util/ArrayList.h \
+  baygui/awt/../../baygui/lang/String.h \
+  baygui/awt/../../baygui/lang/Integer.h \
+  baygui/awt/../../baygui/lang/Math.h \
+  baygui/awt/../../baygui/awt/AWTEvent.h \
+  baygui/awt/../../baygui/awt/event/KeyEvent.h \
+  baygui/awt/../../baygui/awt/event/KeyListener.h \
+  baygui/awt/../../baygui/awt/event/MouseEvent.h \
+  baygui/awt/../../baygui/awt/event/MouseListener.h \
+  baygui/awt/../../baygui/awt/event/MouseMotionListener.h \
+  baygui/awt/../../baygui/awt/Rectangle.h \
+  baygui/awt/../../baygui/awt/Color.h \
+  baygui/awt/../../baygui/awt/Graphics.h \
+  baygui/awt/../../baygui/awt/Component.h \
+  baygui/awt/../../baygui/awt/Button.h \
+  baygui/awt/../../baygui/awt/Checkbox.h \
+  baygui/awt/../../baygui/awt/CheckboxGroup.h \
+  baygui/awt/../../baygui/awt/Label.h \
+  baygui/awt/../../baygui/awt/Listbox.h \
+  baygui/awt/../../baygui/awt/Scrollbar.h \
+  baygui/awt/../../baygui/awt/TextComponent.h \
+  baygui/awt/../../baygui/awt/TextField.h \
+  baygui/awt/../../baygui/awt/Container.h \
+  baygui/awt/../../baygui/awt/Frame.h \
+  baygui/awt/../../baygui/awt/Application.h
+TextComponent.obj: baygui/awt/TextComponent.cpp baygui/awt/../../baygui.h \
+  baygui/awt/../../apilib.h baygui/awt/../../baygui/lang/Object.h \
+  baygui/awt/../../baygui/util/ArrayList.h \
+  baygui/awt/../../baygui/lang/String.h \
+  baygui/awt/../../baygui/lang/Integer.h \
+  baygui/awt/../../baygui/lang/Math.h \
+  baygui/awt/../../baygui/awt/AWTEvent.h \
+  baygui/awt/../../baygui/awt/event/KeyEvent.h \
+  baygui/awt/../../baygui/awt/event/KeyListener.h \
+  baygui/awt/../../baygui/awt/event/MouseEvent.h \
+  baygui/awt/../../baygui/awt/event/MouseListener.h \
+  baygui/awt/../../baygui/awt/event/MouseMotionListener.h \
+  baygui/awt/../../baygui/awt/Rectangle.h \
+  baygui/awt/../../baygui/awt/Color.h \
+  baygui/awt/../../baygui/awt/Graphics.h \
+  baygui/awt/../../baygui/awt/Component.h \
+  baygui/awt/../../baygui/awt/Button.h \
+  baygui/awt/../../baygui/awt/Checkbox.h \
+  baygui/awt/../../baygui/awt/CheckboxGroup.h \
+  baygui/awt/../../baygui/awt/Label.h \
+  baygui/awt/../../baygui/awt/Listbox.h \
+  baygui/awt/../../baygui/awt/Scrollbar.h \
+  baygui/awt/../../baygui/awt/TextComponent.h \
+  baygui/awt/../../baygui/awt/TextField.h \
+  baygui/awt/../../baygui/awt/Container.h \
+  baygui/awt/../../baygui/awt/Frame.h \
+  baygui/awt/../../baygui/awt/Application.h
+TextField.obj: baygui/awt/TextField.cpp baygui/awt/../../baygui.h \
+  baygui/awt/../../apilib.h baygui/awt/../../baygui/lang/Object.h \
+  baygui/awt/../../baygui/util/ArrayList.h \
+  baygui/awt/../../baygui/lang/String.h \
+  baygui/awt/../../baygui/lang/Integer.h \
+  baygui/awt/../../baygui/lang/Math.h \
+  baygui/awt/../../baygui/awt/AWTEvent.h \
+  baygui/awt/../../baygui/awt/event/KeyEvent.h \
+  baygui/awt/../../baygui/awt/event/KeyListener.h \
+  baygui/awt/../../baygui/awt/event/MouseEvent.h \
+  baygui/awt/../../baygui/awt/event/MouseListener.h \
+  baygui/awt/../../baygui/awt/event/MouseMotionListener.h \
+  baygui/awt/../../baygui/awt/Rectangle.h \
+  baygui/awt/../../baygui/awt/Color.h \
+  baygui/awt/../../baygui/awt/Graphics.h \
+  baygui/awt/../../baygui/awt/Component.h \
+  baygui/awt/../../baygui/awt/Button.h \
+  baygui/awt/../../baygui/awt/Checkbox.h \
+  baygui/awt/../../baygui/awt/CheckboxGroup.h \
+  baygui/awt/../../baygui/awt/Label.h \
+  baygui/awt/../../baygui/awt/Listbox.h \
+  baygui/awt/../../baygui/awt/Scrollbar.h \
+  baygui/awt/../../baygui/awt/TextComponent.h \
+  baygui/awt/../../baygui/awt/TextField.h \
+  baygui/awt/../../baygui/awt/Container.h \
+  baygui/awt/../../baygui/awt/Frame.h \
+  baygui/awt/../../baygui/awt/Application.h
+KeyEvent.obj: baygui/awt/event/KeyEvent.cpp \
+  baygui/awt/event/../../../baygui.h baygui/awt/event/../../../apilib.h \
+  baygui/awt/event/../../../baygui/lang/Object.h \
+  baygui/awt/event/../../../baygui/util/ArrayList.h \
+  baygui/awt/event/../../../baygui/lang/String.h \
+  baygui/awt/event/../../../baygui/lang/Integer.h \
+  baygui/awt/event/../../../baygui/lang/Math.h \
+  baygui/awt/event/../../../baygui/awt/AWTEvent.h \
+  baygui/awt/event/../../../baygui/awt/event/KeyEvent.h \
+  baygui/awt/event/../../../baygui/awt/event/KeyListener.h \
+  baygui/awt/event/../../../baygui/awt/event/MouseEvent.h \
+  baygui/awt/event/../../../baygui/awt/event/MouseListener.h \
+  baygui/awt/event/../../../baygui/awt/event/MouseMotionListener.h \
+  baygui/awt/event/../../../baygui/awt/Rectangle.h \
+  baygui/awt/event/../../../baygui/awt/Color.h \
+  baygui/awt/event/../../../baygui/awt/Graphics.h \
+  baygui/awt/event/../../../baygui/awt/Component.h \
+  baygui/awt/event/../../../baygui/awt/Button.h \
+  baygui/awt/event/../../../baygui/awt/Checkbox.h \
+  baygui/awt/event/../../../baygui/awt/CheckboxGroup.h \
+  baygui/awt/event/../../../baygui/awt/Label.h \
+  baygui/awt/event/../../../baygui/awt/Listbox.h \
+  baygui/awt/event/../../../baygui/awt/Scrollbar.h \
+  baygui/awt/event/../../../baygui/awt/TextComponent.h \
+  baygui/awt/event/../../../baygui/awt/TextField.h \
+  baygui/awt/event/../../../baygui/awt/Container.h \
+  baygui/awt/event/../../../baygui/awt/Frame.h \
+  baygui/awt/event/../../../baygui/awt/Application.h
+MouseEvent.obj: baygui/awt/event/MouseEvent.cpp \
+  baygui/awt/event/../../../baygui.h baygui/awt/event/../../../apilib.h \
+  baygui/awt/event/../../../baygui/lang/Object.h \
+  baygui/awt/event/../../../baygui/util/ArrayList.h \
+  baygui/awt/event/../../../baygui/lang/String.h \
+  baygui/awt/event/../../../baygui/lang/Integer.h \
+  baygui/awt/event/../../../baygui/lang/Math.h \
+  baygui/awt/event/../../../baygui/awt/AWTEvent.h \
+  baygui/awt/event/../../../baygui/awt/event/KeyEvent.h \
+  baygui/awt/event/../../../baygui/awt/event/KeyListener.h \
+  baygui/awt/event/../../../baygui/awt/event/MouseEvent.h \
+  baygui/awt/event/../../../baygui/awt/event/MouseListener.h \
+  baygui/awt/event/../../../baygui/awt/event/MouseMotionListener.h \
+  baygui/awt/event/../../../baygui/awt/Rectangle.h \
+  baygui/awt/event/../../../baygui/awt/Color.h \
+  baygui/awt/event/../../../baygui/awt/Graphics.h \
+  baygui/awt/event/../../../baygui/awt/Component.h \
+  baygui/awt/event/../../../baygui/awt/Button.h \
+  baygui/awt/event/../../../baygui/awt/Checkbox.h \
+  baygui/awt/event/../../../baygui/awt/CheckboxGroup.h \
+  baygui/awt/event/../../../baygui/awt/Label.h \
+  baygui/awt/event/../../../baygui/awt/Listbox.h \
+  baygui/awt/event/../../../baygui/awt/Scrollbar.h \
+  baygui/awt/event/../../../baygui/awt/TextComponent.h \
+  baygui/awt/event/../../../baygui/awt/TextField.h \
+  baygui/awt/event/../../../baygui/awt/Container.h \
+  baygui/awt/event/../../../baygui/awt/Frame.h \
+  baygui/awt/event/../../../baygui/awt/Application.h
